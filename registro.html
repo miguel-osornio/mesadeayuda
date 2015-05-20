@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
 <style type="text/css">
 
 *
@@ -150,6 +151,11 @@ clear: both;
 	padding: 1.1em;
 }
 
+.bold
+{
+	font-weight: bold;
+}
+
 </style>
 
 </head>
@@ -296,6 +302,13 @@ Cliente<input type="radio" name="tipo" value="Usuario">
 Trabajador<input type="radio" name="tipo" value="Trabajador">
 
 <br />
+<br />
+
+Area y especialidad <span class="bold">(sólo si es trabajador)</span>
+<br /><br />
+<input type="text" name="area" placeholder="Área" class="inputform">
+<br /><br />
+<input type="text" name="area" placeholder="Especialidad" class="inputform">
 </div>
 </div>
 
