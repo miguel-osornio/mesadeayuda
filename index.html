@@ -27,9 +27,9 @@ input:focus
 #caja
 {
 margin: 0 auto;
-margin-top: 18em;
+margin-top: 13em;
 width: 30em;
-height: 20em;
+height: 23em;
 padding: 0.5em;
 box-sizing: border-box;
 background: #009AB5;
@@ -64,9 +64,11 @@ h4
 	border-radius: 40px;
 }
 
+
 .centrar
 {
 	text-align: center;
+	margin: 0 auto;
 }
 
 #base
@@ -88,6 +90,25 @@ a
 	font-size: 1.1em;
 }
 
+#boton
+{
+	border: none;
+	background: #03395F;
+	padding: 1em;
+	border-radius: 50px;
+	font-weight: bold;
+	transition: padding .25s;
+	text-decoration: none;
+	color: black;
+}
+
+#boton:active
+{
+	border-color: #FFFFFF;
+	box-shadow: 0 0 5px #FFFFFF;
+	padding: 1.1em;
+}
+
 </style>
 
 </head>
@@ -105,7 +126,8 @@ Log In
 Nombre de usuario:
 </h4>
 <div class="centrar">
-<input type="text" name="usuario" class="inputindex" autofocus>
+<form method="POST" action="log_in.php">
+<input type="text" name="usuario" class="inputindex">
 </div >
  
 <h4>
@@ -113,11 +135,16 @@ Pass:
 </h4>
 
 <div class="centrar">
-<input type="text" name="usuario" class="inputindex">
+<input type="password" name="password" class="inputindex">
 </div >
 
 
 <br />
+<br />
+<div class="centrar">
+<input type="submit" value="Ingresar" id="boton">
+</form>
+</div>
 <br />
 <div id="base"><a href="registro.php" class="crece">Registrarse por primera ves</a></div>
 
