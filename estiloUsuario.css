@@ -57,14 +57,13 @@ background-color: #FFFFFF;
   height: 350px;
 }
  
-div#contenido {
+ 
+#contenido {
+margin: 0 auto;
 border-radius: 25px;
  background-color: #FFFFFF;
   border: solid 5px #000000;
-  position: absolute;
-  overflow: hidden;
-  left: 300px;
-  top: 80px;
+  overflow: scroll;
   width: 800px;
   height: 550px;
   padding: 1 5px;
@@ -79,12 +78,7 @@ div#marco1, div#marco2, div#marco3 {
 	padding-top: 1em;
 }
 
-body {
-    
-   background: url(azul2.jpg) no-repeat center center fixed;
-    background-size: cover;
-   
-} 
+
 .bt {
  background-color: #68b12f; background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e)); 
  background: -webkit-linear-gradient(top, #68b12f, #50911e);

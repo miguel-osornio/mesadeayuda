@@ -78,9 +78,9 @@ alert("tu consulta fue enviada ")
  
  
 <div id="contenido">
-<div id="marco1">
+
 <h2>Consultas anteriores </h2>
-</div> 
+
  
 <div id="marco2">
 <h2>Realizar consulta </h2>
