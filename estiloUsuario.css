@@ -69,6 +69,11 @@ div#marco1, div#marco2, div#marco3 {
   height: 100%;
   width: 100%;
 }
+#marco2
+{
+	padding-top: 1em;
+}
+
 body {
     
    background: url(azul2.jpg) no-repeat center center fixed;
