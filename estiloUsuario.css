@@ -63,9 +63,9 @@ margin: 0 auto;
 border-radius: 25px;
  background-color: #FFFFFF;
   border: solid 5px #000000;
-  overflow: hidden;
+  overflow: scroll;
   width: 800px;
-  height: 50em;
+  height: 550px;
   padding: 1 5px;
 }
  
